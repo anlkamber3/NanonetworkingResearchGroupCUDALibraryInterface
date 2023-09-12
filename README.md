@@ -52,3 +52,5 @@ If you are plotting cumulative molecule distribution function on absorbing recei
 ```
 plt.plot(domains.cumulative_distribution_time_domain,functions.cuda_cumulative_distribution_plotter("Topology"))
 ```
+
+Have a good time :) 
