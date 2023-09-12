@@ -3,7 +3,7 @@ It is a basic user interface to use GPU Simulation Library of Boğaziçi Nanonet
 
 This interface provides an easy way to simulate different topologies of molecular communication via diffusion systems by executing CUDA Library of Nanonetworking Research Group. What this interface offers is that you can easily simulate a topology a number of times without using Linux console, and plot average molecule distribution function on absorbing receiver against time.
 
-The interface is built for comparing simulation results and analytical formulation of three dimensional half space characteristics of molecular communication via diffusion channel with an absorbing spherical receiver. However, it can be used for reading simulation results of any kind of environment. The way you can use it is simple. First download the CUDA Library to Desktop. If you want to download it to another path, change the line 
+The interface is built for comparing simulation results and analytical formulation of three dimensional half space characteristics of molecular communication via diffusion channel with an absorbing spherical receiver. However, it can be used for reading simulation results of any kind of environment. The way you can use it is simple. First download the CUDA Library to Desktop. If you want to download it to another path, change the line , which is
 
 ```
 os.chdir(f'/home/{username}/Desktop/nanosim')
