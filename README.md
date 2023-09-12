@@ -45,9 +45,9 @@ Then you can run,
 ```
 plt.plot(domains.distribution_time_domain, functions.cuda_distribution_plotter("Topology"))
 ```
-if you are plotting molecule distribution function on absorbing receiver.
+if you are plotting molecule distribution function on absorbing receiver or absorbing receivers.
 
-If you are plotting cumulative molecule distribution function on absorbing receiver, then
+If you are plotting cumulative molecule distribution function on absorbing receiver or absorbing receivers, then
 
 ```
 plt.plot(domains.cumulative_distribution_time_domain,functions.cuda_cumulative_distribution_plotter("Topology"))
