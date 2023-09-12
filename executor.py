@@ -1,4 +1,4 @@
-# This script runs simulations. You can adjust the number of them and the names.
+# This script runs simulations. You can adjust the number of the simulations and the names of the text files.
 
 import os
 
