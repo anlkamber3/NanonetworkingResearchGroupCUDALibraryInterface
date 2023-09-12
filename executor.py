@@ -2,11 +2,13 @@
 
 import os
 
+username = "anl"
+
 name_of_simulation = "Topology"
 
 number_of_simulations = 100
 
-os.chdir('/home/anl/Desktop/nanosim') #It is the path of the location of CUDA Library
+os.chdir(f'/home/{username}/Desktop/nanosim') #It is the path of the location of CUDA Library
 
 os.system('cmake .')
 
