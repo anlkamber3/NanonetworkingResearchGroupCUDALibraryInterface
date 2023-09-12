@@ -7,10 +7,10 @@ import functions
 os.chdir('/home/anl/Desktop/nanosim')
 
 
-#Topology 0
+#Topology 
 
 #Distribution Plot
-plt.plot(domains.distribution_time_domain, functions.cuda_distribution_plotter("simulation"),label= '$K = Half-Space CUDA Simulation (1cm Reflective Sphere Radius)$')
+plt.plot(domains.distribution_time_domain, functions.cuda_distribution_plotter("Topology"),label= '$K = Half-Space CUDA Simulation (1cm Reflective Sphere Radius)$')
 plt.plot(domains.distribution_time_domain,functions.analytic_distribution(2),label= '$K = Approximation$')
 
 #Cumulative Distribution Plot
