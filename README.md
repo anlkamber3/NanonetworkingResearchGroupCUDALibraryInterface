@@ -16,7 +16,7 @@ name_of_simulation = "Topology"
 number_of_simulations = 100
 ```
 
-When you run the executor.py, the simulation process begins. It runs number_of_simulations time simulations. 
+When you run the executor.py, the simulation process begins. It runs simulations number_of_simulations times. 
 
 Then check whether the parameters in parameters.py match well with the parameters in the library.
 
