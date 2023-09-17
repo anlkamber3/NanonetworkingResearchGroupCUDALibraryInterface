@@ -10,7 +10,7 @@ eliminate white Gaussian noise. Also, the user can plot the simulation results a
 formulations.
 
 
-First, download the CUDA Library to desktop. If you want to download it to another path, change the line , which is
+First, download the CUDA Library to desktop. If you want to download it to another path, edit the line,
 
 ```
 os.chdir(f'/home/{username}/Desktop/nanosim')
