@@ -1,9 +1,16 @@
 # NanonetworkingResearchGroupCUDALibraryInterface
 It is a simple user interface to utilize GPU Simulation Library of Boğaziçi Nanonetworking Research Group in Ubuntu
 
-This interface enables user to simulate different topologies of molecular communication systems by executing CUDA Library of Nanonetworking Research Group. What this interface offers is that you can easily simulate a topology a number of times without using Linux console
 
-The interface compares simulation results with the analytical formulation of three dimensional half space characteristics of molecular communication via diffusion channel with an absorbing spherical receiver. However, it can be used to read simulation results of the any kind of environment. The interface is easy to use. First, download the CUDA Library to desktop. If you want to download it to another path, change the line , which is
+The interface was designed to utilize the CUDA GPU Accelerated Library of Boğaziçi
+Nanonetworking Research Group. The user interface offers an ease of use in case the users are not
+familiar with the Linux environment. In one click, the user is able to run hundreds of simulations of
+molecular communication via diffusion systems, and take average of the simulation results to
+eliminate white Gaussian noise. Also, the user can plot the simulation results and analytical
+formulations.
+
+
+First, download the CUDA Library to desktop. If you want to download it to another path, change the line , which is
 
 ```
 os.chdir(f'/home/{username}/Desktop/nanosim')
