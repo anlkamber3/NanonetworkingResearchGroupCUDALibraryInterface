@@ -1,5 +1,5 @@
 # NanonetworkingResearchGroupCUDALibraryInterface
-It is a simple user interface to utilize GPU Simulation Library of Boğaziçi Nanonetworking Research Group in Ubuntu
+It is a simple user interface to utilize GPU Simulation Library of Boğaziçi Nanonetworking Research Group in Ubuntu.
 
 
 The interface was designed to utilize the CUDA GPU Accelerated Library of Boğaziçi
