@@ -14,9 +14,13 @@ number_of_steps = t/time_step
 
 step_Size = 50  # Scaling when plotting the distribution.
 
-number_of_simulations = 400
+#SIMULATION
 
-maximum_distance = 30
+number_of_simulations = 100
+
+maximum_distance = 0
+
+name_of_simulation = "signal-to-interference-"
 
 symbol_duration_multiplier = 5
 # Half Space Analytic(It is assumed that reflective wall is always yz plane.)
