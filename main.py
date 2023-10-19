@@ -9,7 +9,7 @@ os.chdir('/home/anl/Desktop/nanosim')
 
 SIR_matrix = np.zeros((parameters.maximum_distance+1,parameters.number_of_simulations))
 for i in range(0,parameters.maximum_distance+1):
-    filename = f"signal-to-interference-{i}-"
+    filename = f"{parameters.name_of_simulation}{i}-"
     for simulation_number in range(parameters.number_of_simulations):
         index, array = functions.cuda_distribution_plotter_sir(filename, simulation_number)
         SIR = functions.signal_to_interference_ratio(index, array,parameters.symbol_duration_multiplier)
