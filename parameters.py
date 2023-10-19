@@ -14,8 +14,11 @@ number_of_steps = t/time_step
 
 step_Size = 50  # Scaling when plotting the distribution.
 
-number_of_simulations = 100
+number_of_simulations = 400
 
+maximum_distance = 30
+
+symbol_duration_multiplier = 5
 # Half Space Analytic(It is assumed that reflective wall is always yz plane.)
 
 location_Of_Point_Transmitter = (0, 0, (10**(-5)))
