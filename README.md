@@ -4,8 +4,8 @@ It is a simple user interface to utilize GPU Simulation Library of Boğaziçi Na
 
 The interface was designed to utilize the CUDA GPU Accelerated Library of Boğaziçi
 Nanonetworking Research Group. The user interface offers an ease of use in case the users are not
-familiar with the Linux environment. In one click, the user is able to run hundreds of simulations of
-molecular communication via diffusion systems, and is enabled to take average of the simulation results to
+familiar with the Linux environment. In one click, the user is enabled to run hundreds of simulations of
+molecular communication via diffusion systems and to take average of the simulation results to
 eliminate white Gaussian noise. Also, the user can plot the simulation results and analytical
 formulations.
 
